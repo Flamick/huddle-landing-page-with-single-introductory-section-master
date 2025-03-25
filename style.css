@@ -120,6 +120,10 @@ body {
 
 .attribution a {
 	color: cyan;
+
+	&:visited {
+		color: cyan;
+	}
 }
 
 @media screen and (min-width: 800px) {
